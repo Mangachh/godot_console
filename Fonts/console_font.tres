@@ -1,0 +1,24 @@
+[gd_resource type="FontFile" load_steps=3 format=3 uid="uid://cq22woe40s3wq"]
+
+[ext_resource type="FontFile" uid="uid://gmkrphqdg4fp" path="res://Fonts/NotoMono-Regular.ttf" id="1"]
+[ext_resource type="FontFile" uid="uid://bpdkr86222w0y" path="res://Fonts/Boku2-Regular.otf" id="2"]
+
+[resource]
+fallbacks = Array[Font]([ExtResource("1"), ExtResource("2")])
+face_index = null
+embolden = null
+transform = null
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+cache/0/16/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/50/0 = Vector2(0, 0)
+cache/0/50/0/ascent = 0.0
+cache/0/50/0/descent = 0.0
+cache/0/50/0/underline_position = 0.0
+cache/0/50/0/underline_thickness = 0.0
+cache/0/50/0/scale = 1.0
+cache/0/50/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/50/0/kerning_overrides/50/0 = Vector2(0, 0)

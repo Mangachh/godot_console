@@ -1,0 +1,8 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://cwj3jqr1lcvbl"]
+
+[ext_resource type="Script" path="res://Console/TestResource.cs" id="1_lvfdb"]
+
+[resource]
+script = ExtResource("1_lvfdb")
+a = 12
+b = 12

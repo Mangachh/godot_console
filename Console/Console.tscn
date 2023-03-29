@@ -1,0 +1,42 @@
+[gd_scene load_steps=5 format=3 uid="uid://cyutt1rnef0y1"]
+
+[ext_resource type="Script" path="res://Console/ConsoleUI.cs" id="1_ph3p6"]
+[ext_resource type="Resource" uid="uid://cwj3jqr1lcvbl" path="res://Console/111.tres" id="2_muy2e"]
+[ext_resource type="FontFile" uid="uid://cq22woe40s3wq" path="res://Fonts/console_font.tres" id="2_njx0v"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_umkng"]
+bg_color = Color(0.984314, 0.262745, 0.729412, 0.792157)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0, 0, 0, 1)
+anti_aliasing = false
+
+[node name="CanvasLayer2" type="CanvasLayer"]
+layer = 100
+
+[node name="Panel" type="Panel" parent="."]
+self_modulate = Color(1, 1, 1, 0.254902)
+offset_left = 30.0
+offset_top = 8.0
+offset_right = 1008.0
+offset_bottom = 140.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_umkng")
+script = ExtResource("1_ph3p6")
+TEXTHOLDERCACHE = 5
+test = ExtResource("2_muy2e")
+fontSize = 18
+FONT = ExtResource("2_njx0v")
+COLORDEFAULT = Color(1, 1, 1, 1)
+COLORWARNING = Color(0.647059, 0.521569, 0.117647, 1)
+COLORERROR = Color(0.396078, 0.0156863, 0.0666667, 1)
+
+[node name="TextHolder" type="VBoxContainer" parent="Panel"]
+clip_contents = true
+layout_direction = 2
+layout_mode = 0
+offset_left = 8.0
+offset_top = 7.0
+offset_right = 971.0
+offset_bottom = 118.0
